@@ -64,7 +64,7 @@ public class Car_Rental_System
     }
     
     
-    
+    //methods for adding new car
     private static void addNewCar()
     {
         System.out.print("Enter car make: ");
@@ -82,6 +82,7 @@ public class Car_Rental_System
         System.out.println("Car added successfully");
     }
     
+    //methods for renting car 
     private static void rentCar()
     {
         System.out.print("Enter car index to rent: ");
@@ -99,6 +100,7 @@ public class Car_Rental_System
         }
     }
     
+    //methods for returning the car 
     private static void returnCar()
     {
         System.out.println("Enter car index to return: ");
@@ -116,6 +118,7 @@ public class Car_Rental_System
         }
     }
     
+    //methods for displaying car information
     private static void displayCarInformation()
     {
         for(int i = 0; i < cars.size(); ++i)
